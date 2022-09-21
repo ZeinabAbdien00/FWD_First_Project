@@ -30,25 +30,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onSupportNavigateUp(): Boolean {
         val nav_controller = this.findNavController(R.id.fragmentContainerView)
-        /*if (nav_controller.currentDestination?.id == R.id.addShoeFragment) {
-            Toast.makeText(applicationContext, "Shoe is not saved !! ", Toast.LENGTH_SHORT).show()
-        } else if (nav_controller.currentDestination?.id == R.id.loginFragment) {
-            finish()
-        }
-        return NavigationUI.navigateUp(nav_controller, appBarConfiguration) || super.onSupportNavigateUp()*/
         return nav_controller.navigateUp()
 
     }
 
-    override fun onBackPressed() {
-        onSupportNavigateUp()
-    }
 
-//    override fun onSupportNavigateUp(): Boolean {
-//        return super.onSupportNavigateUp()
-//    }
-//
-//    override fun onBackPressed() {
-//        super.onSupportNavigateUp()
-//    }
+
 }
