@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_name">Show Name</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="show_size">Show Size</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="show_description">Show Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_size">Enter Size</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="in_this_app_you_wii_find_all_you_need_about_fashion_and_famous_shoes">In this app you wii find all you need about fashion and famous shoes .......</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+</resources>
